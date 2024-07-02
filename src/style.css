@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+    background-color: cornflowerblue;
+    color: rgb(104, 103, 103);
+}
+
+nav {
+    background-color: blue;
+    display: flex;
+}
+
+button {
+    background-color: aqua;
+    padding: 8px 16px;
+    cursor: pointer;
+}
