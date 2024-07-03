@@ -5,18 +5,22 @@
 }
 
 body {
-    padding: 30px;
     background-color: cornflowerblue;
     color: rgb(104, 103, 103);
 }
 
 nav {
     background-color: blue;
+    padding: 10px 0px;
     display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 button {
-    background-color: aqua;
-    padding: 8px 16px;
+    background-color: cornflowerblue;
+    padding: 8px 20px;
     cursor: pointer;
+    border: 1px solid black;
+    font-weight: bold;
 }
