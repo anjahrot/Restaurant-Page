@@ -1,5 +1,5 @@
 /* Flytte til egen CSS */
-.container {
+.home_container {
     min-height: 80vh;
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -15,13 +15,13 @@
     letter-spacing: 2px;
 }
 
-.container h1 {
+.home_container h1 {
     font-size: 60px;
     color: green;
 }
 
 
-.container p {
+.home_container p {
     color: red;
     font-size: 20px;
 }

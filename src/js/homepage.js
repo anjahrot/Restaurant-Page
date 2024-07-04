@@ -3,8 +3,8 @@ import '../style/homepage.css';
 const content = document.querySelector('#content');
 
 function initial_pageload() {
-    const container = document.createElement('div');
-    container.classList.add('container');
+    const home_container = document.createElement('div');
+    home_container.classList.add('home_container');
     
     const column1 = document.createElement('div');
     const column2 = document.createElement('div');
@@ -29,9 +29,8 @@ function initial_pageload() {
     column2.appendChild(text);
     column2.appendChild(paragraphs);
 
-    container.appendChild(column1);
-    container.appendChild(column2);
-    content.appendChild(container);
+    home_container.appendChild(column1);
+    home_container.appendChild(column2);
+    content.appendChild(home_container);
 }
-
 export {initial_pageload};
