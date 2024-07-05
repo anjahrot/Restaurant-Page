@@ -6,9 +6,6 @@ import Pasta2 from '../assets/img/pasta2.jpg';
 const content = document.querySelector('#content');
 
 function getMenu() {
-    const menu_container = document.createElement('div');
-    menu_container.classList.add('menu_container');
-    
     const col_1 = document.createElement('div');
     const col_2 = document.createElement('div');
     col_2.classList.add('col-2');
@@ -53,9 +50,8 @@ function getMenu() {
     col_2.appendChild(headline);
     col_2.appendChild(menu_items);
 
-    menu_container.appendChild(col_1);
-    menu_container.appendChild(col_2);
-    content.appendChild(menu_container);
+    content.appendChild(col_1);
+    content.appendChild(col_2);
 }
 
 export {getMenu};

@@ -84,6 +84,14 @@ button .chosen{
     background-color: red;
 }
 
+#content{
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    justify-content: flex-start;
+    font-family: 'pacificoregular', Arial, Helvetica, sans-serif;
+    color: white;
+}
 
 footer {
     position: absolute;

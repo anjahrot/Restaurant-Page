@@ -2,10 +2,7 @@ import '../style/homepage.css';
 
 const content = document.querySelector('#content');
 
-function initial_pageload() {
-    const home_container = document.createElement('div');
-    home_container.classList.add('home_container');
-    
+function initial_pageload() {    
     const column1 = document.createElement('div');
     const column2 = document.createElement('div');
     column2.classList.add('col2');
@@ -29,8 +26,7 @@ function initial_pageload() {
     column2.appendChild(text);
     column2.appendChild(paragraphs);
 
-    home_container.appendChild(column1);
-    home_container.appendChild(column2);
-    content.appendChild(home_container);
+    content.appendChild(column1);
+    content.appendChild(column2);
 }
 export {initial_pageload};

@@ -1,12 +1,3 @@
-/* Flytte til egen CSS */
-.home_container {
-    min-height: 80vh;
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    justify-content: flex-start;
-    font-family: 'pacificoregular', Arial, Helvetica, sans-serif;
-    color: white;
-}
 
 .col2 {
     padding: 20px;
@@ -15,13 +6,13 @@
     letter-spacing: 2px;
 }
 
-.home_container h1 {
+.col2 h1 {
     font-size: 60px;
     color: green;
 }
 
 
-.home_container p {
+.col2 p {
     color: red;
     font-size: 20px;
 }
