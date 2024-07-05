@@ -3,8 +3,6 @@ import { getContact } from './js/contact';
 import { initial_pageload } from './js/homepage';
 import { getMenu } from './js/menu';
 
-console.log("Hi there, from the restaurant page!!");
-
 initial_pageload();
 
 const content = document.querySelector('#content');

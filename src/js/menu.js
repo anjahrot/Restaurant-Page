@@ -11,7 +11,7 @@ function getMenu() {
     col_2.classList.add('col-2');
 
     const headline = document.createElement('h2');
-    headline.textContent = 'Menu';
+    headline.textContent = 'Our Menu';
 
     const menu_items = document.createElement('div');
     menu_items.classList.add('items');

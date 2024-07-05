@@ -21,12 +21,12 @@
 .items > div {
     display: grid;
     grid-template-columns: 1fr 1fr auto;
-    gap: 2px;
+    gap: 15px;
     align-items: center;
 }
 
 
 .image {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
 }
